@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio lotofacil</title>
+    <style>
+        #num{
+            color: #ececec;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        button{
+    padding: 12px 24px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(95, 180, 9);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: block;
+    transition: transform 0.4s;
+    display: flex;
+    align-items: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+        button:hover{
+            background-color: rgb(61, 119, 3);
+            transform: scale(1.1);
+            transition: 0.4s;
+        }
+        p{
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+        }
+        div{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <button type="button" id="gerar">sortear lotofacil</button>
+        <p id="num"></p>
+    </div>
+    
+    <script src="sorteio3.js"></script>
+</body>
+</html>
